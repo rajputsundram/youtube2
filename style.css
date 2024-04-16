@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    background-color: black;
+}
+
+.header{
+    /* height: 90px; */
+    /* background-color: aqua; */
+}
+.firstNav
+{
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstNav div{
+    /* background-color: rgb(0, 255, 81); */
+   /* width: 200px; */
+    display: flex;
+    
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.bar{
+    margin-left: 25px;
+    color: white;
+}
+.bar i{
+    font-size: 24px;
+    
+    color: white;
+}
+.logo-img{
+    margin-left: 30px;
+    background-color: azure;
+    height: 15px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.logo-img i{
+    
+   color: red;
+   /* background-color: aliceblue; */
+
+
+   z-index: 2;
+   font-size: 26px;
+}
+ .logo-text{
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+
+ }
+
+ .search{
+    width: auto;
+    /* background-color: greenyellow; */
+    /* border-radius: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+ }
+ .inputs{
+    border: 0.03px solid rgb(100, 97, 97);
+    border-radius: 30px;
+    
+ }
+ 
+
+ .inputs input
+ {
+    border: 2px rgb(97, 93, 93);
+    color: aliceblue;
+    /* background-color: red; */
+    padding-inline: 30px;
+    width: 500px;
+    height: 40px;
+     border-top-left-radius: 30px; 
+    border-bottom-left-radius: 30px;
+    background: transparent; 
+    background-color: black;
+ 
+/* outline: none; */
+outline-color: rgb(61, 175, 166);
+
+ }
+ 
+ .inputs input::placeholder{
+    padding: 30px;
+    color: gray;
+ }
+ .search-inp{
+  /* background-color: rgb(39, 36, 36); */
+    display: flex;
+    border-radius: 30px;
+    background-color: rgb(125, 120, 120);
+
+ }
+ /* .icon
+ {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    background-color: brown;
+ } */
+ 
+
+ .search-icon i{
+    width: 60px;
+    font-size: 19px;
+    
+    color: aliceblue;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+ }
+
+
+ .microphone {
+margin-left: 38px;
+background-color: rgb(78, 72, 72);
+height: 50px;
+width: 50px;
+justify-content: center;
+align-items: center;
+display: inline-flex;
+border-radius: 50%;
+color: white;
+
+ }
+ .microphone i{
+    font-size: 20px;
+ }
+
+ .login
+ {
+  
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    color: white;
+    /* background-color: blue; */
+
+ }
+ .login span{
+    margin: 15px;
+
+ }
+ .login span i{
+    font-size: 25px;
+ 
+ }
+
+
+
+
+.secondNav{
+   position: fixed;
+    /* margin-top: 7px; */
+    height: 50px;
+    width: 78vw;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    background-color: black;
+    margin-bottom: 20%;
+    align-items: center;
+}
+.space{
+    height: 70px;
+}
+.secondNav ul{
+    display: flex;
+
+
+}
+.secondNav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 8px;
+   
+    
+    
+    
+
+
+}
+.secondNav ul li a{
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(32, 31, 31);
+    padding: 2px;
+    
+    width: 70px;
+    border-radius: 5px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+   
+
+}
+.secondNav ul li a:hover{
+    background-color: rgb(89, 86, 86);
+}
+
+
+
+.main{
+    position: fixed;
+
+    height: 100vh;
+    display: flex;
+    /* border: 2px solid rgb(0, 255, 51); */
+    margin-top:0;
+    
+}
+
+.sideNav{
+    
+    height: 86vh;
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+    scrollbar-width:none;
+    
+    /* background-color: brown; */
+    width: 260px;
+    /* border: 2px solid rgb(185, 6, 6); */
+    color: white;
+}
+
+.sideNav-txt{
+    margin-left: 22px;
+    font-size: 20px;
+    margin: 20px;
+}
+.sideNav:hover
+{
+    scrollbar-width: thin;
+}
+
+.sideNavbar div{
+   
+    width: 330px;
+   
+    margin: 12px;
+  }
+  .sideNavbar div li{
+  
+    
+    display: flex;
+    width: 195px;
+    height: 40px;
+    border-radius: 8px;
+    align-items: center;
+    margin-left: 8px;
+    margin: 4px;
+    
+  }
+
+  #subs{
+    font-size: 20px;
+    
+  }
+  .sideNavbar div li:hover{
+   background-color: rgb(61, 58, 58);
+  }
+  .sideNavbar div li i{
+  
+    margin-left: 10px;
+  }
+  .sideNavbar div span{
+    padding: 20px;
+    font-size: 17px;
+  }
+  .sideNavbar div li{
+    list-style: none;
+    
+  }
+  
+  .sideNavbar div li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    
+    
+  }
+  .div1{
+    
+    border: 1px solid rgb(152, 150, 150);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ 
+  }
+  .div2{
+   
+   border: 1px solid rgb(152, 150, 150);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ 
+  }
+  .div3{
+   
+   border: 1px solid rgb(152, 150, 150);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ 
+  }
+  .div4{
+   
+   border: 1px solid rgb(152, 150, 150);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ 
+  }
+  .div5{
+   
+   border: 1px solid rgb(152, 150, 150);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ 
+  }
+  
+  .div6{
+   
+   border: 1px solid rgb(152, 150, 150);
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+ 
+ }
+
+
+
+
+
+.mainBody{
+position: fixed;
+    height: 100vh; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    display: grid;
+
+    /* background-color: aquamarine; */
+    margin-left: 20px;
+}
+.mainBody div img
+{
+    height: 225px;
+    width: 390px;
+    border-radius: 6px;
+    
+    
+}
+.main1{
+    
+    height: 330px;
+    width: 80vw;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    display: flex;
+}
+.main1 div{
+    /* background-color: aquamarine; */
+    height: 225px;
+    width: 370px;
+    margin: 18px;
+    border-radius: 7px;
+}
+
+
+
+.main2{
+    margin-top: 30px;
+    height: 330px;
+    width: 80vw;
+    display: flex;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+}
+.main2 div{
+    /* background-color: aquamarine; */
+    height: 225px;
+    width: 370px;
+    margin: 18px;
+    border-radius: 7px;
+}
+.main3{
+    margin-top: 30px;
+    height: 330px;
+    width: 80vw;
+    display: flex;
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    
+}
+.main3 div{
+
+    /* background-color: aquamarine; */
+    height: 225px;
+    width: 370px;
+    margin: 18px;
+    border-radius: 7px;
+    
+}
+
+
+#desc{
+    height: 100px;
+    /* background-color: beige; */
+    display: flex;
+    /* align-items: center; */
+    color: black;
+    
+
+}
+#desc p{
+    margin-left: 10px;
+    color: aliceblue;
+}
+#channel-Logo img
+{
+    /* display: flex; */
+
+    /* background-color: aqua; */
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+
+}
